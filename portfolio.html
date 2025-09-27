@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | J.D.G digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><strong>J.D.G</strong> <span>digital</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Portfolio Section -->
+  <section class="page-section">
+    <h1>My Portfolio</h1>
+    <p>Here are some of my featured projects:</p>
+    <ul class="service-list">
+      <li><strong>Personal Portfolio Website</strong> – A responsive showcase of my skills.</li>
+      <li><strong>E-commerce Store</strong> – A full-stack online shop with cart & payments.</li>
+      <li><strong>Business Landing Page</strong> – Modern design optimized for conversions.</li>
+      <li><strong>Blog Platform</strong> – A CMS-based blog with custom styling.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 J.D.G digital | All Rights Reserved</p>
+  </footer>
+
+  <!-- Background Transition Script -->
+  <script>
+    const gradients = [
+      "linear-gradient(135deg, #1d3557, #457b9d, #a8dadc)",
+      "linear-gradient(135deg, #d4fc79, #96e6a1)",
+      "linear-gradient(135deg, #ff9a9e, #fad0c4)",
+      "linear-gradient(135deg, #89f7fe, #66a6ff)",
+      "linear-gradient(135deg, #fbc2eb, #a6c1ee)"
+    ];
+    document.body.style.background = gradients[Math.floor(Math.random() * gradients.length)];
+  </script>
+</body>
+</html>
